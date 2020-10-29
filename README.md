@@ -1,2 +1,2 @@
 # mastering-redux
-couple of essential thinks to note on redux
+A couple of essential things to note on redux
