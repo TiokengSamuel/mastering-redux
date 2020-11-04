@@ -6,7 +6,7 @@ function App() {
   const [user, setUser] = useState(null);
   return (
     <div className="App">
-      Showing the power of redux with facebook app
+      <h1>Showing the power of redux with facebook app</h1>
 
       <Login setUser={setUser}/>
     </div>
