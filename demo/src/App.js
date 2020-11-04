@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css';
+import Login from './Login';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -7,9 +8,7 @@ function App() {
     <div className="App">
       Showing the power of redux with facebook app
 
-      <Login/>
-      <Header/>
-      <Feed/>
+      <Login setUser={setUser}/>
     </div>
   );
 }
