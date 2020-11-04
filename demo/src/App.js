@@ -3,7 +3,8 @@ import './App.css';
 import Login from './Login';
 
 function App() {
-  const [user, setUser] = useState(null);
+  //const [user, setUser] = useState(null);
+  const [state, dispatch] = useStateValue();
   return (
     <div className="App">
       <h1>Showing the power of redux with facebook app</h1>
