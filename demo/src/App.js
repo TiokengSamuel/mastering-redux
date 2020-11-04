@@ -4,12 +4,12 @@ import Login from './Login';
 import { useStateValue } from './StateProvider';
 
 function App() {
-  const [user, setUser] = useState(null);
+  //const [user, setUser] = useState(null);
   const [state, dispatch] = useStateValue();
   return (
     <div className="App">
       <h1>Showing the power of redux with facebook app</h1>
-      <h3>{state.user ? `The user logged in is ${user}` : 'No user is logged in'}</h3>
+      <h3>{state.user ?  state.user === "Tiokeng" : 'No user is logged in'}</h3>
 
       <Login setUser={setUser}/>
     </div>
