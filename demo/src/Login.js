@@ -5,10 +5,10 @@ function Login(props) {
     const [state, dispatch] = useStateValue();
 
     const loginToApp = () => {
-        dispatch{
-            type: 'SET_USER'
-            user: 'Tiokeng'
-        }
+        dispatch({
+            type: 'SET_USER',
+            user: 'Tiokeng',
+        })
     }
 
     return (
