@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Login() {
+function Login(props) {
 
     const loginToApp = () => {
-        
+        props.setUser("Tiokeng");
     }
 
     return (
