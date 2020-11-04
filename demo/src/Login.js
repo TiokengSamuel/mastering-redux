@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Login(props) {
+    const [state, dispatch] = useStateValue();
 
     const loginToApp = () => {
         props.setUser("Tiokeng");
