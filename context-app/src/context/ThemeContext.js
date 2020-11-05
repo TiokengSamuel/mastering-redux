@@ -7,7 +7,7 @@ export const ThemeContext = createContext();
     state = {
         isLightTheme: true,
         light: { syntax: '#555', ui: '#ddd', bg: '#eee'},
-        dark: {}
+        dark: { syntax: '#ddd', ui: '#333', bg: '#555'}
     }
     render() {
         return ();
