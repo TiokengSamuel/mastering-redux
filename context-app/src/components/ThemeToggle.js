@@ -4,7 +4,7 @@ export default class ThemeToggle extends Component {
     render() {
         return (
             <div>
-                <button onClick={}>Toggle the theme</button>
+                <button onClick={toggleTheme}>Toggle the theme</button>
             </div>
         )
     }
