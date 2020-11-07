@@ -14,7 +14,7 @@ export const ThemeContext = createContext();
     }
     render() {
         return (
-            <ThemeContext.Provider value={{...this.state, toggleTheme}}>
+            <ThemeContext.Provider value={{...this.state, toggleTheme: this.oggleTheme}}>
                 {this.props.children}
             </ThemeContext.Provider>
         );
