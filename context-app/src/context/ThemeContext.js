@@ -10,7 +10,7 @@ export const ThemeContext = createContext();
         dark: { syntax: '#ddd', ui: '#333', bg: '#555'}
     }
     toggleTheme = () => {
-        this.setState({ isLightTheme: !isLightTheme });
+        this.setState({ isLightTheme: !this.state.isLightTheme });
     }
     render() {
         return (
