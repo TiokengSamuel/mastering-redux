@@ -10,8 +10,8 @@ export const SongList = () => {
         { title: 'This wild Darkness', id: 3 },
     ]);
 
-    const addSong = () => {
-        setSongs([...songs, {title: 'new song', id: uuid()}])
+    const addSong = (title) => {
+        setSongs([...songs, {title: title, id: uuid()}])
     }
     return (
         <div className="song-list">
