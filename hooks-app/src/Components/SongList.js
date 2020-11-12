@@ -8,7 +8,7 @@ export const SongList = () => {
     ]);
 
     const addSong = () => {
-        
+        setSongs([...songs, {title: 'new song', id: 4}])
     }
     return (
         <div className="song-list">
