@@ -15,7 +15,7 @@ export const SongList = () => {
         setSongs([...songs, {title: title, id: uuid()}])
     }
     useEffect(() => {
-        
+        console.log('useEffect hook ran', songs);
     })
     return (
         <div className="song-list">
