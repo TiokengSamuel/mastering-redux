@@ -20,8 +20,7 @@ export const SongList = () => {
                     return ( <li key={song.id}>{song.title}</li>)
                 })}
             </ul>
-            <button onClick={addSong}>Add a song</button>
-            <NewSongForm/>
+            <NewSongForm addSong = {addSong}/>
         </div>
     )
 }
