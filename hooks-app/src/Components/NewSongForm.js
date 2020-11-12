@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const NewSongForm = () => {
+    useState('');
     return (
         <div>
-            <form>
+            <form onSubmit={}>
                 <label>Song name: </label>
-                <input type="text" required/>
+                <input type="text" required onChange={e => {}}/>
                 <input type="submit" value="add song" />
             </form>
         </div>
