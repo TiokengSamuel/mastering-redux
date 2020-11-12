@@ -8,7 +8,7 @@ export const SongList = () => {
     ]);
 
     const addSong = () => {
-        setSongs([...songs, {title: 'new song', id: 4}])
+        setSongs([...songs, {title: 'new song', id: uuid()}])
     }
     return (
         <div className="song-list">
