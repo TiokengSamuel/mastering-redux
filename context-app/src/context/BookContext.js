@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react'
 
 export const BookContext = createContext();
 
-const BookContext = (props) => {
+const = (props) => {
     useState([
         {title: 'The way of the King', id: 1},
         {title: 'The final empire', id: 2},

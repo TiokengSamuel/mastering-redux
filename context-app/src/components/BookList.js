@@ -12,12 +12,11 @@ const BookList = () => {
                 <ul>
                     {books.map(book => {
                         return(
-                            <li style={{ background: theme.ui }}>The way of Kings</li>
+                            <li key = {book.id} style={{ background: theme.ui }}>The way of Kings</li>
                         )
                     })}
                     
-                    <li style={{ background: theme.ui }}>The name of the wind</li>
-                    <li style={{ background: theme.ui }}>The final empire</li>
+                    
                 </ul>
             </div>
     );
