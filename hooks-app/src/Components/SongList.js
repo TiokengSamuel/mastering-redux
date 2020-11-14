@@ -4,6 +4,10 @@ import { NewSongForm } from './NewSongForm';
 
 
 export const SongList = () => {
+    useEffect(() => {
+        console.log('useEffect hook ran', songs);
+    })
+
     const [songs, setSongs] = useState([
         { title: 'Almost Home', id: 1 },
         { title: 'Memory Gospel', id: 2 },
@@ -14,9 +18,7 @@ export const SongList = () => {
     const addSong = (title) => {
         setSongs([...songs, {title: title, id: uuid()}])
     }
-    useEffect(() => {
-        console.log('useEffect hook ran', songs);
-    })
+    
     return (
         <div className="song-list">
             <ul>
