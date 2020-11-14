@@ -19,7 +19,8 @@ export default class BookList extends Component {
 }
 
 const BookList = () => {
-    const { isLightTheme, light, dark} useContext(ThemeContext);
+    const theme = isLightTheme ? light : dark;
+    const { isLightTheme, light, dark} = useContext(ThemeContext);
     return (
         <div className="book-list" style={{ color: theme.syntax, background: theme.bg}}>
                 <ul>
