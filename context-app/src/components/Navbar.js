@@ -24,6 +24,8 @@ export default class Navbar extends Component {
     }
 
     const Navbar = () => {
+        const { isLightTheme, light, dark} = useContext(ThemeContext);
+        const { isAuthenticated, toggleAuth } = useContext(auth)
         return (
             <nav style = {{ background: theme.ui, color: theme.syntax }}>
             <h1>Context App</h1>
