@@ -15,4 +15,4 @@ const BookContextProvider = (props) => {
     )
 }
 
-export default BookContext;
+export default BookContextProvider;
