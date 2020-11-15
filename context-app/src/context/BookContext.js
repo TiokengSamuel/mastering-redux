@@ -10,7 +10,7 @@ const BookContextProvider = (props) => {
     ])
     return (
         <BookContext.Provider value={{books}}>
-            {props.childeren}
+            {props.children}
         </BookContext.Provider>
     )
 }
