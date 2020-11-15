@@ -1,2 +1,2 @@
 # mastering-redux
-A couple of essential things to note on redux state management for react and couple of context api apps
+This include a couple of small apps build to master concepts like : react hooks, react context api, up to redux
