@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useContext, useState } from 'react'
 
-export const BookForm = () => {
+const BookForm = () => {
+    useContext(BookContext)
     return (
         <div>
             
