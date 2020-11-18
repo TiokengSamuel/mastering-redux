@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { BookContext } from '../contexts/BookContext'
 
-export const BookDetail = ({ book }) => {
+const BookDetail = ({ book }) => {
     const { removeBook } = useContext(BookContext);
     return (
         <li>
@@ -10,3 +10,5 @@ export const BookDetail = ({ book }) => {
         </li>
     )
 }
+
+export default BookDetail
