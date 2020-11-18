@@ -10,6 +10,8 @@ const NewBookForm = () => {
         <form>
             <input type="text" placeholder="Book title" value={title}/>
             onChange={(e) => setTitle(e.target.value)}required />
+            <input type="text" placeholder="Book author" value={author}/>
+            onChange={(e) => setAuthor(e.target.value)}required />
         </form>
     )
 }
