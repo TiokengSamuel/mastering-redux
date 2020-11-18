@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { BookContext } from '../contexts/BookContext'
+import BookDetails from './BookDetail'
 import {read} from 'fs'
 
 const BookList = () => {
