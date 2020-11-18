@@ -8,7 +8,7 @@ const NewBookForm = () => {
     useContext(BookContext)
     return (
         <form>
-            <input type="text" placeholder=""/>
+            <input type="text" placeholder="Book title" value={title}/>
         </form>
     )
 }
