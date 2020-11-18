@@ -5,7 +5,12 @@ const NewBookForm = () => {
     const { addBook } = useContext(BookContext);
     const [title, setTitle] = useState('');
     const [author, setAuthor] = useState('');
-    useContext(BookContext)
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(title, author);
+
+    }
+    useContext(BookContext) 
     return (
         <form>
             <input type="text" placeholder="Book title" value={title}
