@@ -59,5 +59,10 @@ book-list {
 
 .book-list .author {
   font-size: 0.9em;
-  
+  color: #ddd;
+}
+
+.empty {
+  margin: 20px;
+  text-align: center;
 }
