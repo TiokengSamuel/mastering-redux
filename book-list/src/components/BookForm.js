@@ -4,7 +4,7 @@ import {BookContext} from '../context/BookContext'
 const NewBookForm = () => {
     const { addBook } = useContext(BookContext);
     const [title, setTitle] = useState('');
-    const 
+    const [author, setAuthor] = useState('');
     useContext(BookContext)
     return (
         <div>
