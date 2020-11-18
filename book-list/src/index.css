@@ -29,8 +29,8 @@ body {
   
 }
 
-book-list {
-  margin: 2px;
+.book-list {
+  margin: 20px;
 }
 
 .book-list ul {
