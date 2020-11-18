@@ -1,6 +1,8 @@
 import React, {useContext, useState } from 'react'
+import {BookContext} from '../context/BookContext'
 
-const BookForm = () => {
+const NewBookForm = () => {
+    const { addBook } = useContext(BookContext)
     useContext(BookContext)
     return (
         <div>
@@ -8,3 +10,5 @@ const BookForm = () => {
         </div>
     )
 }
+
+export default NewBookForm;
