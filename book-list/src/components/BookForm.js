@@ -7,9 +7,9 @@ const NewBookForm = () => {
     const [author, setAuthor] = useState('');
     useContext(BookContext)
     return (
-        <div>
-            
-        </div>
+        <form>
+            <input type="text" pl/>
+        </form>
     )
 }
 
