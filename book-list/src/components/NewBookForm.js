@@ -7,7 +7,7 @@ const NewBookForm = () => {
     const [author, setAuthor] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        addBook(title, author);
+        dispatch({type: 'ADD_BOOk'});
         setTitle('');
         setAuthor('');
     }
